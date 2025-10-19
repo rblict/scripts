@@ -1,27 +1,21 @@
-# RBLICT Scripts Repository
+# Windows System Info Report
 
-This repository contains basic scripts for RBLICT IT operations, designed to help automate tasks, monitor systems, and manage backups efficiently.
+This repository provides a PowerShell script to collect comprehensive system information and Windows license status, and save it to a text file in the user's Documents folder.
 
-## Directory Structure
+## Features
 
-- linux/ – Scripts for Linux servers
-- windows/ – Scripts for Windows servers
-- docs/ – Documentation and guides
+- Collects system specifications
+- Retrieves Windows license status
+- Includes disk, network, BIOS, CPU, RAM, and GPU information
+- Saves output to a timestamped text file in the Documents folder
 
-## Getting Started
+## Usage
 
-1. Linux Scripts:
-   - Make executable: chmod +x script_name.sh
-   - Run: ./script_name.sh
+1. Clone this repository:
+   git clone https://github.com/yourusername/windows-system-info-report.git
 
-2. Windows Scripts:
-   - Open PowerShell as Administrator
-   - Run: .\script_name.ps1
+2. Run the PowerShell script:
+   Right-click on Get-SystemInfo.ps1 and select "Run with PowerShell" (ensure you have admin privileges)
 
-## Contribution
-
-Feel free to extend these scripts, add new monitoring tools, or integrate automation workflows.
-
-## License
-
-Internal RBLICT IT operations use.
+3. Find the report in your Documents folder:
+   Documents\System_Report_YYYYMMDD_HHMMSS.txt
